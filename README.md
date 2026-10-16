@@ -1,2 +1,18 @@
-Este proyecto tuvó su grado de dificultad, ya que de inicio no lo entendía, tuve que leerlo varias veces para entenderlo, luego lo intenté por metodos que conocia, como haciendolo en for´s o if´s, pero era demasiado largo el código, luego volví a ver la ultima lección y lo empece a hacer con la libreria random, que posteriormente se convirtió en numpy, ví en los ejemplos que adjuntaron que había metodos más complejos, en el que incluías la probabilidad de que sea de un lado u otro, pero como la probabilidad era la misma para ambos lados, pudé hacerlo en un ranom, y mtere ahí mismo los niveles, representando con 0 y 1 la izquierda y la derecha, todo eso se suma para dar un valor numerico, y se agrega a un arreglo, todo esto se pone en un for que se repite por toda la cantidad de canicas, ese array se manda a una función que va a graficarlos, en esta parte me tardé, ya que no recordaba como graficar, creí que debia poner valores de x y y, hasta había incluido 12 contadores para llevar la sumatoria de los resultados que daban todas las canicas, pero viendo nuevamente la ultima clase, me di cuenta que con la función plt.hist(), python ya hace todo el trabajo, posteriormente las etiquetas las llamé como en el ejemplo, y ya había terminado.
-Esto de la probabilidad y la graficación definitivamente son nuevos retos, y que veo que me hace falta seguir practicando.
+# Simulación de la Máquina de Galton en Python
+
+## Descripción
+Proyecto que simula una Máquina de Galton mediante Python. El programa genera rutas aleatorias para un conjunto de canicas y calcula su posición final después de atravesar varios niveles.
+
+## Funcionalidades
+- Simulación de 3,000 canicas.
+- Generación de trayectorias aleatorias.
+- Cálculo de la posición final de cada canica.
+- Representación gráfica de la distribución mediante un histograma.
+
+## Tecnologías
+- Python
+- NumPy
+- Matplotlib
+
+## Objetivo
+Comprender el comportamiento de los procesos aleatorios y observar cómo la distribución de las posiciones finales de las canicas tiende a aproximarse a una distribución normal al aumentar el número de simulaciones.
